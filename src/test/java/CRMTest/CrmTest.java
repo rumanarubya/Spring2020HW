@@ -1,4 +1,4 @@
-package ElemntLibrary;
+package CRMTest;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,11 +12,11 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class storeElement {
+public class CrmTest {
 
 	WebDriver driver;
 
-	@BeforeTest
+	
 	public void loginBrowser() {
 
 		// I have Set Chrome Driver as my default Driver
@@ -38,8 +38,8 @@ public class storeElement {
 		driver.get("http://www.techfios.com/ibilling/?ng=admin/");
 	}
 
-	@Test
-	public void loginSiteDashboard() throws InterruptedException {
+
+	public void init() throws InterruptedException {
 
 	String logingTitle = driver.getTitle();
 	Assert.assertEquals("Login - iBilling",logingTitle );
@@ -65,5 +65,6 @@ public class storeElement {
 		
 }
 
+	
 	
 

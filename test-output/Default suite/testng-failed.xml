@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ElemntLibrary.StroreElemnt">
+      <class name="CRMTest.CrmTest9">
         <methods>
-          <include name="loginSiteDashboard"/>
-          <include name="loginBrowser"/>
+          <include name="login1"/>
+          <include name="readConfig"/>
+          <include name="init"/>
         </methods>
-      </class> <!-- ElemntLibrary.StroreElemnt -->
+      </class> <!-- CRMTest.CrmTest9 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
