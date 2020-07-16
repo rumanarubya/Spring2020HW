@@ -5,9 +5,10 @@
     <classes>
       <class name="CRMTest.CrmTest9">
         <methods>
-          <include name="login1"/>
+          <include name="AddCustomerTest"/>
           <include name="readConfig"/>
           <include name="init"/>
+          <include name="teardown"/>
         </methods>
       </class> <!-- CRMTest.CrmTest9 -->
     </classes>
